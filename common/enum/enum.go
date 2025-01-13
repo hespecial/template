@@ -4,7 +4,7 @@ const (
 	ConfigFile = "./config/config.yaml"
 
 	JwtTokenName = "Token"
-	JwtIssuer    = "tiktok"
+	JwtIssuer    = "jwt-issuer"
 	JwtTtl       = 24 * 7 // hour
 	JwtSecret    = "tiktok"
 

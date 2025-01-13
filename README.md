@@ -1,1 +1,1 @@
-# blog
+# Go web template

@@ -1,10 +1,10 @@
 package response
 
 import (
-	"blog/common/code"
 	"github.com/gin-gonic/gin"
 	"log/slog"
 	"net/http"
+	"template/common/code"
 )
 
 type Response struct {

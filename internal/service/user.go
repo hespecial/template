@@ -1,10 +1,10 @@
 package service
 
 import (
-	"blog/internal/model"
-	"blog/internal/repo"
-	"blog/util"
 	"context"
+	"template/internal/model"
+	"template/internal/repo"
+	"template/util"
 	"time"
 )
 

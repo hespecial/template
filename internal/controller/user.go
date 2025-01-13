@@ -1,12 +1,12 @@
 package controller
 
 import (
-	"blog/common/enum"
-	"blog/common/response"
-	"blog/internal/service"
-	"blog/pkg/jwt"
-	"blog/util"
 	"github.com/gin-gonic/gin"
+	"template/common/enum"
+	"template/common/response"
+	"template/internal/service"
+	"template/pkg/jwt"
+	"template/util"
 )
 
 type UserController struct {

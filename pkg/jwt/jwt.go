@@ -1,8 +1,8 @@
 package jwt
 
 import (
-	"blog/common/enum"
 	"github.com/golang-jwt/jwt/v5"
+	"template/common/enum"
 
 	"time"
 )

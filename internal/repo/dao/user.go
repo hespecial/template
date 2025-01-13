@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"blog/internal/model"
 	"context"
 	"gorm.io/gorm"
+	"template/internal/model"
 )
 
 type UserDao interface {

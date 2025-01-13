@@ -1,11 +1,11 @@
 package router
 
 import (
-	"blog/global"
-	"blog/internal/router/route"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
+	"template/global"
+	"template/internal/router/route"
 )
 
 func StartServer() {

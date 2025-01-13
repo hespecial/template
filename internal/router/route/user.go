@@ -1,13 +1,13 @@
 package route
 
 import (
-	"blog/global"
-	"blog/internal/controller"
-	"blog/internal/middleware"
-	"blog/internal/repo"
-	"blog/internal/repo/dao"
-	"blog/internal/service"
 	"github.com/gin-gonic/gin"
+	"template/global"
+	"template/internal/controller"
+	"template/internal/middleware"
+	"template/internal/repo"
+	"template/internal/repo/dao"
+	"template/internal/service"
 )
 
 func RegisterUserRouter(router *gin.RouterGroup) {

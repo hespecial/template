@@ -1,8 +1,8 @@
 package main
 
 import (
-	"blog/global"
-	"blog/internal/router"
+	"template/global"
+	"template/internal/router"
 )
 
 func main() {

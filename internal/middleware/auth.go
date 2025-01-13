@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"blog/common/enum"
-	"blog/common/response"
-	"blog/pkg/jwt"
 	"github.com/gin-gonic/gin"
+	"template/common/enum"
+	"template/common/response"
+	"template/pkg/jwt"
 )
 
 func Auth() gin.HandlerFunc {

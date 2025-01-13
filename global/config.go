@@ -1,10 +1,10 @@
 package global
 
 import (
-	"blog/common/enum"
-	"blog/config"
 	"github.com/spf13/viper"
 	"log"
+	"template/common/enum"
+	"template/config"
 )
 
 var Conf *config.Config

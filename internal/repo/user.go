@@ -1,9 +1,9 @@
 package repo
 
 import (
-	"blog/internal/model"
-	"blog/internal/repo/dao"
 	"context"
+	"template/internal/model"
+	"template/internal/repo/dao"
 )
 
 type UserRepo interface {

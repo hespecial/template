@@ -6,7 +6,7 @@ const (
 	JwtTokenName = "Token"
 	JwtIssuer    = "jwt-issuer"
 	JwtTtl       = 24 * 7 // hour
-	JwtSecret    = "template"
+	JwtSecret    = "jwt-secret"
 
 	ContextUserId = "user"
 )
